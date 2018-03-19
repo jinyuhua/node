@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@4.1.1
+3 info using node@v8.1.3
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle mymusic@0.0.0~prestart: mymusic@0.0.0
+6 silly lifecycle mymusic@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle mymusic@0.0.0~start: mymusic@0.0.0
+8 verbose lifecycle mymusic@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle mymusic@0.0.0~start: PATH: C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;D:\case\mymusic\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Ruby23-x64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\soft\svn\bin;E:\wamp\bin\php\php5.5.12;C:\ProgramData\ComposerSetup\bin;D:\Git\cmd;F:\gradle\gradle-4.0\bin;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Users\Administrator\AppData\Roaming\npm;F:\Microsoft VS Code\bin;
+10 verbose lifecycle mymusic@0.0.0~start: CWD: D:\case\mymusic
+11 silly lifecycle mymusic@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:181:13)
+12 verbose stack     at process.listener (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:105:13)
+12 verbose stack     at process.emit (events.js:207:7)
+12 verbose stack     at processEmit (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:207:44)
+13 verbose cwd D:\case\mymusic
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v8.1.3
+17 error npm  v4.1.1
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
