@@ -97,7 +97,6 @@
   function getHtml5VideoData(data) {
     console.log('getHtml5VideoData')
   }
-    //jquery jsonp参数 服务器先获得jsonp参数，将数据包裹在jsonp函数内，作为success的参数，同时，jsonpCallback参数为自定义的回调函数，其接受的参数同样为返回的数据
   function getData(data) {
     $.ajax({
       url: 'http://vdn.apps.cntv.cn/api/getIpadVideoInfo.do?pid=' + data[index],
@@ -124,7 +123,7 @@
     var li_list = ''
 
     mp3Arr.forEach(function (value, index, arr) {
-      li_list += '<li class="item"><a download="aa" href="' + value.video.chapters[0].url + '" >' + value.title +
+      li_list += '<li class="item"><a download="'+ value.title +'" href="' + value.video.chapters[0].url + '" >' + value.title +
         '</a></li>'
     })
     var ul = document.createElement('ul')
