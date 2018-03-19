@@ -1,2 +1,3 @@
-npm install
-npm start
+使用方法：
+1. npm install
+2. npm start
